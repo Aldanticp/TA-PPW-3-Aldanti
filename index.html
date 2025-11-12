@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkyDigital - Sentuhan Teknologi Elegan</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-gray-800 bg-pink-50">
+
+  <!-- Header -->
+  <header class="bg-white/90 backdrop-blur-md shadow-md fixed top-0 w-full z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <!-- LOGO (ganti src logo kamu di sini) -->
+      <div class="flex items-center space-x-3">
+        <img src="logo_skydigital.jpg" alt="Logo SkyDigital" class="w-10 h-10 rounded-full">
+        <h1 class="text-2xl font-bold text-pink-600">SkyDigital</h1>
+      </div>
+
+      <!-- NAVIGATION -->
+      <nav class="hidden md:flex space-x-6 text-gray-700 font-medium">
+        <a href="#hero" class="hover:text-pink-600 transition">Beranda</a>
+        <a href="#features" class="hover:text-pink-600 transition">Fitur</a>
+        <a href="#about" class="hover:text-pink-600 transition">Tentang</a>
+        <a href="#contact" class="hover:text-pink-600 transition">Kontak</a>
+      </nav>
+      <button class="md:hidden text-gray-700" id="menu-btn">☰</button>
+    </div>
+
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t text-gray-700">
+      <a href="#hero" class="block px-6 py-2 hover:bg-pink-50">Beranda</a>
+      <a href="#features" class="block px-6 py-2 hover:bg-pink-50">Fitur</a>
+      <a href="#about" class="block px-6 py-2 hover:bg-pink-50">Tentang</a>
+      <a href="#contact" class="block px-6 py-2 hover:bg-pink-50">Kontak</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="relative pt-40 pb-32 text-center overflow-hidden bg-gradient-to-br from-pink-300 via-pink-400 to-rose-400">
+
+    <!-- BACKGROUND IMAGE (bisa ganti gambar kamu sendiri di sini) -->
+    <div class="absolute inset-0 bg-cover bg-center opacity-20"
+         style="background-image: url('bg_skydigital.jpg');"></div>
+
+    <!-- Decorative Blur -->
+    <div class="absolute top-0 left-0 w-72 h-72 bg-pink-200 rounded-full blur-3xl opacity-40 animate-pulse"></div>
+    <div class="absolute bottom-0 right-0 w-96 h-96 bg-rose-300 rounded-full blur-3xl opacity-40 animate-pulse delay-1000"></div>
+
+    <!-- Content -->
+    <div class="relative max-w-4xl mx-auto px-6">
+      <h2 class="text-5xl md:text-6xl font-extrabold text-white mb-6 leading-tight drop-shadow-lg animate-fadeInUp">
+        Inovasi Digital<br><span class="text-pink-100">dengan Sentuhan Elegan</span>
+      </h2>
+      <p class="text-lg md:text-xl text-white/90 mb-10 leading-relaxed animate-fadeInUp delay-300">
+        SkyDigital menghadirkan solusi percetakan modern dengan hasil yang tajam, desain yang elegan, dan proses yang efisien untuk memenuhi kebutuhan visual Anda.
+      </p>
+      <a href="#contact"
+        class="inline-block bg-white text-pink-600 font-semibold px-8 py-4 rounded-full shadow-lg hover:bg-pink-50 hover:shadow-xl transition-all duration-300 animate-fadeInUp delay-500">
+        💌 Hubungi Kami
+      </a>
+    </div>
+
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-gradient-to-t from-rose-500/20 to-transparent"></div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-10 text-gray-800">Layanan Unggulan Kami</h3>
+      <div class="grid md:grid-cols-3 gap-10">
+        <div class="p-6 bg-pink-50 rounded-2xl shadow hover:shadow-lg transition">
+          <div class="text-pink-500 text-5xl mb-4">💡</div>
+          <h4 class="text-xl font-semibold mb-2">Inovasi Digital</h4>
+          <p>Kami menghadirkan ide-ide desain visual yang menarik dan profesional untuk memperkuat identitas brand Anda.</p>
+        </div>
+        <div class="p-6 bg-pink-50 rounded-2xl shadow hover:shadow-lg transition">
+          <div class="text-pink-500 text-5xl mb-4">🌐</div>
+          <h4 class="text-xl font-semibold mb-2">Pengembangan Web & Cloud</h4>
+          <p>Menyediakan layanan cetak digital dengan hasil warna tajam, presisi tinggi, dan bahan berkualitas premium.</p>
+        </div>
+        <div class="p-6 bg-pink-50 rounded-2xl shadow hover:shadow-lg transition">
+          <div class="text-pink-500 text-5xl mb-4">🔒</div>
+          <h4 class="text-xl font-semibold mb-2">Keamanan Siber</h4>
+          <p>Didukung oleh proses produksi efisien dan pengiriman yang tepat waktu untuk memenuhi kebutuhan Anda dengan cepat.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16 bg-pink-50">
+    <div class="max-w-5xl mx-auto px-6 md:flex items-center gap-10">
+      <div class="md:w-1/2 mb-8 md:mb-0">
+        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c"
+             alt="Tentang SkyDigital" class="rounded-2xl shadow-lg hover:shadow-2xl transition">
+      </div>
+      <div class="md:w-1/2">
+        <h3 class="text-3xl font-bold mb-4 text-gray-800">Tentang SkyDigital</h3>
+        <p class="text-gray-600 mb-4">SkyDigital adalah perusahaan yang bergerak di bidang digital printing, menyediakan berbagai layanan cetak berbasis teknologi modern untuk kebutuhan bisnis dan personal. Kami menghadirkan hasil cetak berkualitas tinggi dengan warna tajam, presisi, serta layanan yang cepat dan profesional. Dengan dukungan teknologi terkini dan tim berpengalaman, SkyDigital berkomitmen memberikan solusi cetak digital yang inovatif, efisien, dan terpercaya bagi setiap pelanggan.</p>
+        <p class="text-gray-600">Didukung oleh tim profesional di bidang desain grafis, percetakan digital, dan manajemen warna, SkyDigital berkomitmen menjadi mitra terpercaya dalam setiap kebutuhan cetak modern Anda, mulai dari promosi bisnis hingga kebutuhan personal dengan hasil yang presisi dan berkualitas tinggi.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 bg-white">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-6 text-gray-800">Hubungi Kami</h3>
+      <form class="bg-pink-50 p-8 rounded-2xl shadow-md text-left">
+        <div class="mb-4">
+          <label class="block text-gray-700 font-semibold mb-2">Nama</label>
+          <input type="text" class="w-full border border-pink-200 rounded-lg px-4 py-2 focus:ring-2 focus:ring-pink-400 outline-none" placeholder="Masukkan nama Anda">
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 font-semibold mb-2">Email</label>
+          <input type="email" class="w-full border border-pink-200 rounded-lg px-4 py-2 focus:ring-2 focus:ring-pink-400 outline-none" placeholder="Masukkan email Anda">
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 font-semibold mb-2">Pesan</label>
+          <textarea class="w-full border border-pink-200 rounded-lg px-4 py-2 focus:ring-2 focus:ring-pink-400 outline-none" rows="4" placeholder="Tulis pesan Anda"></textarea>
+        </div>
+        <button type="submit" class="bg-pink-500 text-white font-semibold px-6 py-3 rounded-lg hover:bg-pink-600 transition w-full">
+          Kirim Pesan
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-pink-600 text-pink-100 py-6 text-center">
+    <p>&copy; 2025 SkyDigital. Semua Hak Dilindungi.</p>
+    <div class="flex justify-center space-x-4 mt-3">
+      <a href="https://web.facebook.com/people/Sky-digital-Printing/100069124365387/?_rdc=1&_rdr#" class="hover:text-white">Facebook</a>
+      <a href="https://www.instagram.com/skydigital.official?igsh=dnE0NWhubHh6MTIx" class="hover:text-white">Instagram</a>
+      <a href="https://www.linkedin.com/company/skydigitalindonesia/" class="hover:text-white">LinkedIn</a>
+    </div>
+  </footer>
+
+  <!-- Animations -->
+  <style>
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    .animate-fadeInUp {
+      animation: fadeInUp 1s ease forwards;
+    }
+    .delay-300 { animation-delay: 0.3s; }
+    .delay-500 { animation-delay: 0.5s; }
+  </style>
+
+  <!-- JS -->
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+
+</body>
+</html>
