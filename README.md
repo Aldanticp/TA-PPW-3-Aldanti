@@ -99,7 +99,6 @@ Copy code
 ---
 
 ## 📞 Kontak & Media Sosial
-🌐 Website: file:///D:/TA3%20PPW/index.html
 📷 Instagram: [@skydigital.official](https://www.instagram.com/skydigital.official?igsh=dnE0NWhubHh6MTIx)  
 📘 Facebook: [SkyDigital Printing](https://web.facebook.com/people/Sky-digital-Printing/100069124365387/?_rdc=1&_rdr#)  
 💼 LinkedIn: [SkyDigital Indonesia](https://www.linkedin.com/company/skydigitalindonesia/)
