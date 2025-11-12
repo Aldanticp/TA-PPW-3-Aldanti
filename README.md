@@ -38,11 +38,11 @@ JavaScript (untuk menu mobile)
 Responsive Design — mendukung semua ukuran layar.
 
 📂 Struktur Proyek
-skydigital-landing-page/
-├── index.html          # File utama landing page
-├── logo_skydigital.jpg # Logo perusahaan (ganti dengan file logo kamu)
-├── bg_skydigital.jpg   # Background hero section
-└── README.md           # Dokumentasi proyek
+Tugas Akhir Judul 3 PPW/
+├── TA3-PPW.html
+├── readme.md
+├── bg_skydigital.jpg
+├── logo_skydigital.jng
 
 🚀 Cara Menjalankan Proyek
 
